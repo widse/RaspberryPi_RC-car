@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Video Monitoring Car control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <h1>Video Monitoring & Car control</h1>
+    <div class = "info">
+    {% if message %}
+       <p>{{ message }}</p>
+    {% endif %}
+    </div>
+    <button type="button" onclick="location.href = '/L';">LEFT</button>
+    <button type="button" onclick="location.href = '/F';">Forward</button>
+    <button type="button" onclick="location.href = '/R';">Right</button>
+        
+    <h3><img src="{{ url_for('showVideo') }}" width="80%"></h3>
+    
+</body>
+</html>
