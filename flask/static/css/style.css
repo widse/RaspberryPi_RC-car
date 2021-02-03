@@ -1,0 +1,29 @@
+body{
+    background-color: #fff;
+    text-align: center;
+}
+.info{
+    color: #5f063d;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    width: 80px;
+    height: 80px;
+    background-color: #004fff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+button:focus{
+    outline : 0;
+}
+button:hover{
+    background-color: rgba(0, 79, 255, 0.9);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 79, 255, 0.6);
+}
